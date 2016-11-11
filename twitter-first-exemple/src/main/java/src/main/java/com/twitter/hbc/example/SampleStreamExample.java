@@ -67,7 +67,7 @@ public class SampleStreamExample {
     }
 
     client.stop();
-
+// stop this
     // Print some stats
     System.out.printf("The client read %d messages!\n", client.getStatsTracker().getNumMessages());
   }
